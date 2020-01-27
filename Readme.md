@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Антон Харламов](https://up.htmlacademy.ru/htmlcss/27/user/948791).
-* Наставник:[Наталья БЫстрова](https://htmlacademy.ru/profile/id124725).
+* Наставник:[Наталья Быстрова](https://htmlacademy.ru/profile/id124725).
 
 ---
 
