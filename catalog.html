@@ -38,17 +38,17 @@
     <main>
        <section>
          <h1>Магазин готовых шаблонов</h1>
-         <form>
-          <fieldset>
-              <legend>Сетка</legend>
+        <form>
+             <fieldset>
+                      <legend>Сетка</legend>
                     <input type="radio" name="radio_1" id="adaptive" checked/>
                     <label for="adaptive"> Адаптивная </label>
                     <input type="radio" name="radio_1" id="fixed"/>
                     <label for="fixed"> Фиксированная </label>
                     <input type="radio" name="radio_1" id="rubbed"/>
                     <label for="rubbed"> Резиновая </label>
-                    </fieldset> 
-                    <fieldset> 
+            </fieldset> 
+             <fieldset> 
                         <legend>Особенности</legend>
                     <input type="checkbox" name="check1" id="slider" checked/>
                     <label for="slider">Слайдер</label>
@@ -60,8 +60,8 @@
                     <label for="gallery"> Галерея</label>
                     <input type="checkbox" id="cart" name="check5"/>
                     <label for="cart"> Корзина </label>
-              </fieldset>
-                </form>
+             </fieldset>
+        </form>
                 <button>Показать</button>
             <ul>
                 <li class="catalog_item"> <img src="images/img-sedona.jpg" width="360px" height="576px" alt="Макет Sedona" />
@@ -97,22 +97,23 @@
                 </li>
             </ul>
         </section>
-        <div class="backup_form">
+        <div class="backup_form"><!--И все же,почему тут div,а не section?-->
              <form>
-                   <h1>Напишите нам</h1>
-                   <input type="button">Закрыть
-                    <input type ="text" placeholder="Имя Фамилия" id="name"/>
+                     <h1>Напишите нам</h1>
+                    <input type="button" value="Закрыть"/>
                     <label for="name">Ваше имя</label>
-                    <input type="email" placeholder="email@example.com" id="mail"/>
+                    <input type ="text" placeholder="Имя Фамилия" id="name"/>
                     <label for="mail">Ваш email</label>
-                    Текст письма:
-                    <textarea cols="65" rows="5"></textarea>
+                    <input type="email" placeholder="email@example.com" id="mail"/>
+                    <label for="message"> Текст письма</label>
+                    <textarea cols="65" rows="5" id="message"></textarea>
                     <input type="submit" value="Отправить"/>
+                    
             </form>
         </div>
         
     </main>
-    <footer>
+     <footer>
         <ul>
             <li>
                 <a href="">

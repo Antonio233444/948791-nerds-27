@@ -56,19 +56,20 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <div class="backup_form"><!--И все же,почему тут div,а не section?-->
             <form>
                     <h1>Напишите нам</h1>
-                    <input type="button">Закрыть
-                    <input type ="text" placeholder="Имя Фамилия" id="name"/>
+                    <input type="button" value="Закрыть"/>
                     <label for="name">Ваше имя</label>
-                    <input type="email" placeholder="email@example.com" id="mail"/>
+                    <input type ="text" placeholder="Имя Фамилия" id="name"/>
                     <label for="mail">Ваш email</label>
-                    Текст письма:
-                    <textarea cols="65" rows="5"></textarea>
+                    <input type="email" placeholder="email@example.com" id="mail"/>
+                    <label for="message"> Текст письма</label>
+                    <textarea cols="65" rows="5" id="message"></textarea>
                     <input type="submit" value="Отправить"/>
+                    
             </form>
-        </section>
+        </div>
     </main>
     <footer>
         <ul>
