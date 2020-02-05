@@ -1,0 +1,102 @@
+
+.header_nav{
+    font-family:"Roboto";
+    font-size:16px;
+    font-weight:500;
+    color:#000000;
+    line-height:30px;
+    text-transform:uppercase;
+}
+
+.header_nav a{
+    text-decoration:none;
+ }
+
+.header_nav li{
+    list-style-type:none;
+}
+
+.services h3{
+    font-family:"Roboto";
+    font-size:24px;
+    font-weight:700;
+    color:#000000;
+    line-height:30px;
+    text-transform:uppercase;
+}
+
+.services p{
+    font-family:"Roboto";
+    font-size:16px;
+    font-weight:400;
+    color:#283136;
+    line-height:24px;
+}
+
+.button{
+    font-family:"Roboto";
+    font-size:16px;
+    font-weight:500;
+    color:#ffffff;
+    line-height:18px;
+    width:160px;
+    height:50px;
+}
+
+.button1{ 
+    background-color:#fb565a;
+}
+
+.button2{
+    background-color:#00ca74;
+}
+
+.button3{
+    background-color:#efc84a;
+}
+
+.greet h2{
+    font-family:"Roboto";
+    font-size:36px;
+    font-weight:700;
+    color:#000000;
+    line-height:36px;
+    
+}
+
+.greet p{
+    font-family:"Roboto";
+    font-size:16px;
+    font-weight:400;
+    color:#444444;
+    line-height:22px;
+}
+
+.shop_title{
+    font-family:"Roboto";
+    font-size:55px;
+    font-weight: 500;
+    color:#000000;
+    line-height:55px;
+}
+
+legend{
+    font-family:"Roboto";
+    font-size:18px;
+    font-weight:700;
+    color:#000000;
+    line-height:30px;
+    text-transform:uppercase;
+}
+
+.show{
+    font-family:"Roboto";
+    font-size:16px;
+    font-weight:500;
+    color:#000000;
+    line-height:18px;
+    width:260px;
+    height:50px;
+    background-color: #eeeeee;
+    
+}
