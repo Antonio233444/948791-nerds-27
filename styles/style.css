@@ -326,6 +326,12 @@ footer {
     list-style-type: none;
 }
 
+.catalog-list-layout {   /*Стили для макетов,перенос*/
+    width: 760px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
 
 .catalog-list-layout li {
     list-style-type: none; 
