@@ -16,6 +16,12 @@ body {
     margin: 0 auto;
 }
 
+.nav-list {
+    display: flex;
+    
+}
+
+
 .catalog-container {
     max-width: 1140px;
     padding: 0 10px;
@@ -24,6 +30,10 @@ body {
 
 .location {
     position: absolute;
+    left: 820px;
+    top: 89px;
+    right: 389px;
+    bottom: 137px;
 }
 
 .results li {
@@ -32,6 +42,12 @@ body {
 
 .our-clients li {
     list-style-type: none;
+}
+
+.our-clients ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .visually-hidden {
@@ -47,6 +63,7 @@ footer {
 }
 
 .footer-container {
+    display: flex;
     max-width: 1140px;
     padding: 0 10px;
     margin: 0 auto;
@@ -78,6 +95,7 @@ footer {
     color: #283136;
 }
 
+
 .nav-list  ul {
     display: flex;
     font-size: 16px;
@@ -92,6 +110,8 @@ footer {
 
 .nav-list li {
     list-style-type: none;
+    margin: 50px;
+    
 }
 
 .cart {
@@ -143,6 +163,9 @@ footer {
     background-color: #efc84a;
 }
 
+.greet {
+    margin-left: 139px;
+}
 
 .greet h2 {
     font-size: 36px;
@@ -164,6 +187,7 @@ footer {
     font-weight: 500;
     color: #000000;
     line-height: 55px;
+    text-align: center;
 }
 
 .filter-item {
@@ -322,7 +346,7 @@ footer {
     color: #666666;
 }
 
-.catalog-list-layout_button {
+.catalog-list-layout-button {
     font-size:16px;
     font-weight: 500;
     line-height: 18px;
@@ -349,8 +373,14 @@ footer {
     justify-content: center;
 }
 
+.social-nets ul {
+    display: flex;
+}
+
 .social-nets li {
     list-style-type: none;
+    margin-left: 12px;
+    
 }
 
 
